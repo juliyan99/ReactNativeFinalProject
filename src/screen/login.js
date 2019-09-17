@@ -24,8 +24,6 @@ Password = "";
 const Login = ({fetchDispatch, navigation}) => {
     const fetchData = async () => {
 		err="";
-		//Username = "juliyan@tugu.com"
-		//Password = "password123"
 
 		if (Username == "" || Password == ""){
 			err = "Username / Password belum terisi";
